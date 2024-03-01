@@ -1,7 +1,7 @@
 namespace DesafioFundamentos.Models
 {
     public class Estacionamento
-    {
+    {      
         private decimal precoInicial = 0;
         private decimal precoPorHora = 0;
         private List<string> veiculos = new List<string>();
@@ -16,6 +16,7 @@ namespace DesafioFundamentos.Models
         {
             // TODO: Pedir para o usuário digitar uma placa (ReadLine) e adicionar na lista "veiculos"
             // *IMPLEMENTE AQUI*
+        
             Console.WriteLine("Digite a placa do veículo para estacionar:");
         }
 
